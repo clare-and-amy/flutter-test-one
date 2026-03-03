@@ -15,6 +15,7 @@ class _AdPageState extends State<AdPage> {
   final List<String> _images = [
     'lib/assets/ad/ad1.png',
     'lib/assets/ad/ad2.png',
+    'lib/assets/ad/ad3.png',
   ];
 
   @override
