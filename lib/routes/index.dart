@@ -4,6 +4,7 @@ import 'package:test01/pages/User/login.dart';
 import 'package:test01/pages/User/register.dart';
 import 'package:test01/pages/User/profile.dart';
 import 'package:test01/pages/Main/index.dart';
+import 'package:test01/pages/H5/about.dart';
 
 // 返回app根级组件
 Widget getRootWidget() {
@@ -21,5 +22,6 @@ Map<String, Widget Function(BuildContext)> getRootRoutes() {
     '/login': (context) => LoginPage(),
     '/register': (context) => RegisterPage(),
     '/user/profile': (context) => ProfilePage(),
+    '/about': (context) => AboutPage(),
   };
 }

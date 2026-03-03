@@ -177,7 +177,10 @@ class _ProfilePageState extends State<ProfilePage> {
                     _buildMenuItem(
                       icon: Icons.info,
                       title: '关于我们',
-                      onTap: () {},
+                      onTap: () {
+                        // 导航到 H5 页面
+                        Navigator.pushNamed(context, '/about');
+                      },
                     ),
                   ],
                 ),
