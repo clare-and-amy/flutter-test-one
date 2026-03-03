@@ -39,7 +39,6 @@ class _AdPageState extends State<AdPage> {
               });
             },
             itemBuilder: (context, index) {
-              print(_images[index]);
               return Stack(
                 fit: StackFit.expand,
                 children: [

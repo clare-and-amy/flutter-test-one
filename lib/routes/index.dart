@@ -20,6 +20,6 @@ Map<String, Widget Function(BuildContext)> getRootRoutes() {
     '/': (context) => MainPage(),
     '/login': (context) => LoginPage(),
     '/register': (context) => RegisterPage(),
-    '/profile': (context) => ProfilePage(),
+    '/user/profile': (context) => ProfilePage(),
   };
 }
